@@ -1,0 +1,37 @@
+.header {
+    background-color: #151d3b;
+    color: #f1fff6;
+    text-align: center;
+    padding: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    border: 1px solid #ffffff;
+    padding: 1rem;
+    color: #f1fff6;
+}
+
+.footer {
+    background-color: #151d3b;
+    color: #f1fff6;
+    text-align: center;
+    padding: 1rem;
+}
+
+    body {
+        background-image: url(file:///home/matheus.oliveira.58/Imagens/GalleryPic-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    h2 {
+        font-size: 26pt;
+        color: #d82148;
+    }
